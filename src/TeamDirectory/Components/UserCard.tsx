@@ -68,6 +68,7 @@ const UserCard = ({ email, firstName, image, lastName }: IUserCard) => {
         ></div>
         <div
           style={{
+            overflow: "hidden",
             fontSize: "smaller",
             textOverflow: "ellipsis",
             fontWeight: 500,
