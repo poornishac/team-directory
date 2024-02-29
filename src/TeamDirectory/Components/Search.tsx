@@ -26,9 +26,9 @@ const Search = ({ searchValue, setSearchValue }: ISearchHandler) => {
             borderRadius: "5rem",
             width: "26rem",
             border: 0,
-            padding: "20px 20px 20px 55px",
+            padding: "1.25rem 1.25rem 1.25rem 3.438rem",
             fontSize: "1.2rem",
-            paddingLeft: "65px",
+            paddingLeft: "4.063rem",
           }}
           placeholder={HeaderLabel.searchPlaceholder}
           value={searchValue}

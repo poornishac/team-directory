@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 
 function SearchIcon({
   width = 27,
@@ -14,8 +13,8 @@ function SearchIcon({
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      x="0px"
-      y="0px"
+      x="0rem"
+      y="0rem"
       width={width}
       height={height}
       viewBox="0 0 122.879 119.799"

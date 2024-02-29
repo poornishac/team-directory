@@ -11,8 +11,8 @@ const NoDataPage = ({
   return (
     <div style={{ textAlign: "center", marginTop: "15%" }}>
       <NoDataFound />
-      <h2 style={{ fontSize: "24px", color: "#333" }}>{heading}</h2>
-      <p style={{ fontSize: "18px", color: "#666" }}>{description}</p>
+      <h2 style={{ fontSize: "1.5rem", color: "#333" }}>{heading}</h2>
+      <p style={{ fontSize: "1.125rem", color: "#666" }}>{description}</p>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { HeaderLabel } from "../constants";
 import Search from "./Search";
 
@@ -13,7 +13,7 @@ const Header = ({ searchValue, setSearchValue }: ISearchHandler) => {
         zIndex: 1,
         top: 0,
         width: "100%",
-        height: "9%",
+        height: "6.5rem",
         backgroundColor: "#88a4f4",
         position: "fixed",
         display: "flex",

@@ -12,10 +12,10 @@ const Loader = () => {
     >
       <div
         style={{
-          width: "50px",
-          height: "50px",
-          border: "5px solid #f3f3f3",
-          borderTop: "5px solid #3498db",
+          width: "3.125rem",
+          height: "3.125rem",
+          border: "0.313rem solid #f3f3f3",
+          borderTop: "0.313rem solid #3498db",
           borderRadius: "50%",
           transform: "rotate(360deg)",
           animationName: "spin",

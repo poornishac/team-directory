@@ -190,7 +190,7 @@ const UserSection = ({ searchValue }: IUserSectionProps) => {
     );
   }
   return (
-    <div style={{ margin: "3rem", position: "relative", top: "100px" }}>
+    <div style={{ margin: "3rem", position: "relative", top: "6.25rem" }}>
       {Object.entries(userData).map(
         ([key, value], index) =>
           value.length > 0 && (

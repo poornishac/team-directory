@@ -23,12 +23,12 @@ const UserCard = ({ email, firstName, image, lastName }: IUserCard) => {
   return (
     <div
       style={{
-        width: "25rem",
+        width: "22rem",
         borderRadius: "1rem",
-        boxShadow: "4px 4px 0.49rem 0.01rem #d9d4d4",
+        boxShadow: "0.25rem 0.25rem 0.49rem 0.01rem #d9d4d4",
         transition: "transform 0.3s ease",
         backgroundColor: isHovered ? "#e8e6e6" : "transparent",
-        transform: isHovered ? "translateY(-5px)" : "translateY(0)",
+        transform: isHovered ? "translateY(-0.313rem)" : "translateY(0)",
         display: "flex",
       }}
       onMouseEnter={handleMouseEnter}
@@ -49,8 +49,8 @@ const UserCard = ({ email, firstName, image, lastName }: IUserCard) => {
         style={{
           margin: "6%",
           textAlign: "left",
-          minWidth: "200px",
-          maxWidth: "300px",
+          minWidth: "12.5rem",
+          maxWidth: "18.75rem",
         }}
       >
         <div
